@@ -68,7 +68,7 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--secondary--outline button--lg',
+                'button button--outline button--active button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
