@@ -7,4 +7,4 @@ This is a link to [another document.](doc4.md) This is a link to an [external pa
 
 This is a test.
 
-![img](../static/img/Image.png)
+![img](../static/img/Surge.png)
