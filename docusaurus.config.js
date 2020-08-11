@@ -106,7 +106,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ivancheban/docusaurus/edit/master/blog',
+            'https://github.com/ivancheban/docusaurus/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
