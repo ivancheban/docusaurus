@@ -10,7 +10,14 @@ module.exports = {
   plugins: [
     require.resolve('@cmfcmf/docusaurus-search-local')
   ],
+           ['@docusaurus/plugin-google-analytics'
+  ],
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-162550995-25',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'light',
