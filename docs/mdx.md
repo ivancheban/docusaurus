@@ -18,4 +18,4 @@ I can write **Markdown** alongside my _JSX_!
 
 import Image from '@theme/IdealImage';
 
-<Image img={require('../static/img/Image.png')} />
+<Image img={require.resolve('../static/img/Image.png')} />
