@@ -10,6 +10,7 @@ module.exports = {
   plugins: [
     require.resolve('@cmfcmf/docusaurus-search-local')
   ],
+  plugins: ['@docusaurus/plugin-ideal-image'],
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-162550995-25',
