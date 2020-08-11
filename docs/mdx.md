@@ -16,6 +16,3 @@ export const Highlight = ({children, color}) => ( <span style={{
 
 I can write **Markdown** alongside my _JSX_!
 
-import Image from '@theme/IdealImage';
-
-<Image img={require.resolve('../static/img/Image.png')} />
