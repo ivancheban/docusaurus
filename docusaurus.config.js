@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
   title: 'Docs Portal',
   tagline: 'Tools and resources for technical writers',
@@ -5,12 +6,10 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'https://github.com/ivanchebank', // Usually your GitHub org/user name.
+  organizationName: 'https://github.com/ivancheban', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-  plugins: [
-    require.resolve('@cmfcmf/docusaurus-search-local')
-  ],
-  plugins: ['@docusaurus/plugin-ideal-image'],
+  plugins:
+    [path.resolve(__dirname, './node_modules/docusaurus-lunr-search/')],
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-162550995-25',
