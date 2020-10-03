@@ -110,7 +110,7 @@ These commands created new `Gemfile` files in your project folder.
 
 ![img](../static/img/gemfile.png)
 
-4. Delete everything there.
+4. Delete everything in this file.
 
 5. Enter the following data and save the file.
 
@@ -144,7 +144,9 @@ To build your Jekyll site locally:
 
 You can access all the site content locally from the folder that you've downloaded from GiHub.
 
-To stop the local server where your site is served, press `Ctrl+C+C`.
+:::note
+To stop the local server where your site is served, press `Ctrl+C` in the Command Prompt.
+:::
 
 ---
 
@@ -161,6 +163,13 @@ To stop the local server where your site is served, press `Ctrl+C+C`.
 Install VSCode from its [official site](https://code.visualstudio.com/download).
 
 ![img](../static/img/download-vscode.png)
+
+Useful links for setting up VSCode for viewing and editing Markdown files:
+
+* [Using Markdown with Visual Studio Code](https://sciwiki.fredhutch.org/compdemos/vscode_markdown_howto)
+* [How-To Guide: Markdown in Visual Studio Code](https://medium.com/@michael.isprihanto/how-to-guide-markdown-in-visual-studio-code-e8a68cc01f64)
+* [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
+* [Lana Novikova's materials about VScode](https://gitlab.com/svetlnovikova/webinar/-/blob/master/post-webinar-materials.md) (In Russian)
 
 ---
 
