@@ -39,14 +39,66 @@ So without too many words, let's start building our first documentation portal u
 1. Go to [RubyInstaller for Windows](https://rubyinstaller.org/downloads/).
 2. Install the recommended **Ruby+Devkit 2.6.X (x64)** version.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9a41dee-d0c9-4fd1-a2af-c853e8803266/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9a41dee-d0c9-4fd1-a2af-c853e8803266/Untitled.png)
+![img](../static/img/ruby-installer.png)
 
 3. Install everything by default.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a58954e2-09c1-42d4-b0e6-b2b8005106a3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a58954e2-09c1-42d4-b0e6-b2b8005106a3/Untitled.png)
+![img](../static/img/installation-ruby.png)
 
 3. When the installation completes, you see this command prompt screen. Press `Enter` two times when prompted.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8dc3c55a-18df-4fef-9e35-e4468e7939af/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8dc3c55a-18df-4fef-9e35-e4468e7939af/Untitled.png)
+![img](../static/img/ruby-installed.png)
 
 4. When the installation in the command prompt exits, let's assume that we have Ruby installed. If you want to make sure, open the command prompt and type `ruby -v` and press `Enter`.
+
+![img](../static/img/check-ruby-version.png)
+
+---
+
+## Install Jekyll
+
+1. To install Jekyll, enter `gem install jekyll` in the command prompt and press `Enter`.
+
+2. Check if Jekyll has been installed properly: enter `jekyll -v` and press `Enter`.
+
+![img](../static/img/check-jekyll-version.png)
+
+---
+
+## Install Bundler
+
+1. Browse to the directory where you downloaded the Documentation theme for Jekyll.
+
+2. Delete the existing `Gemfile` and `Gemfile.lock` files.
+
+![img](../static/img/project-folder.png)
+
+### Change directory
+
+First, you need to change the directory in the Command Prompt.
+
+1. In your file explorer, copy the path to the unzipped folder with your project.
+
+![img](../static/img/path-to-project-folder.png)
+
+2. In the Command prompt, enter cd and right-click to paste the copied path.
+
+![img](../static/img/paste-path-command-prompt.png)
+
+3. Press `Enter` to change the directory. Now you can execute commands in the project directory.
+
+---
+
+### Install Bundler
+
+1. To install Bundler, enter `gem install bundler` and press `Enter`.
+
+![img](../static/img/gem-install-bundler.png)
+
+2. Enter the following commands:
+
+```powershell
+bundle init
+bundle install
+```
+

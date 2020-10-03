@@ -17,6 +17,10 @@ module.exports = {
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+      additionalLanguages: ['powershell'],
+    },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'light',
