@@ -58,11 +58,11 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'About me',
           items: [
             {
-              label: 'My Antora documentation site',
-              href: 'https://ivan-antora.netlify.app',
+              label: 'My resume',
+              href: 'https://ivanchebancv.now.sh',
             },
             {
               label: 'Tech writer blog',
@@ -74,8 +74,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Tech writer blog',
-              href: 'https://techwriter.netlify.app',
+              label: 'Tech writers of Ukraine',
+              href: 'https://t.me/TW_Ukraine',
             },
             {
               label: 'Tech writers of Ukraine group in FB',
