@@ -1,4 +1,3 @@
-const path = require('path');
 module.exports = {
   title: 'Docs Portal',
   tagline: 'Tools and resources for technical writers',
@@ -8,8 +7,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'https://github.com/ivancheban', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-  plugins:
-    [path.resolve(__dirname, './node_modules/docusaurus-lunr-search/')],
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-162550995-25',
