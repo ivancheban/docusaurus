@@ -81,11 +81,11 @@ First, you need to change the directory in the Command Prompt.
 
 ![img](../static/img/path-to-project-folder.png)
 
-2. In the Command prompt, enter cd and right-click to paste the copied path.
-
-![img](../static/img/paste-path-command-prompt.png)
+2. In the Command prompt, enter `cd` and right-click to paste the copied path.
 
 3. Press `Enter` to change the directory. Now you can execute commands in the project directory.
+
+![img](../static/img/paste-path-command-prompt.png)
 
 ---
 
@@ -142,7 +142,7 @@ To build your Jekyll site locally:
 
 ![img](../static/img/site-built-locally.png)
 
-You can access all the site content locally from the folder that you've downloaded from GiHub.
+You can access all the site content locally from the project folder.
 
 :::note
 To stop the local server where your site is served, press `Ctrl+C` in the Command Prompt.
@@ -175,13 +175,13 @@ Useful links for setting up VSCode for viewing and editing Markdown files:
 
 ### Git client
 
-You will also need Git client to connect VSCode to your GitHub repository. It's the same as using Word (in this case VSCode) to write/edit your document and Dropbox desktop client (in this case Git client) to sync your changes to the cloud server.
+> You will also need Git client to connect VSCode to your GitHub repository. It's the same as using Word (in this case VSCode) to write/edit your document and Dropbox desktop client (in this case Git client) to sync your changes to the cloud server.
 
-Install Git client from its [official site](https://git-scm.com/).
+1. Install Git client from its [official site](https://git-scm.com/).
 
 ![img](../static/img/download-git-client.png)
 
-Install everything by default. You may close the Git client window.
+2. Install everything by default. You may close the Git client window.
 
 ---
 
@@ -193,11 +193,11 @@ Install everything by default. You may close the Git client window.
 
 ![img](../static/img/open-project-folder-vscode.png)
 
-3. Open your project folder.
+3. Open the project folder.
 
 ![img](../static/img/open-project-folder.png)
 
-Now you will see the folder contents in the VSCode editor. If you open the folder with content and click the **.md** file, you will see the site file markup.
+Now you will see the folder contents in the VSCode editor. If you open the folder with content and click the **.md** file, you will see the file markup.
 
 ![img](../static/img/markdown-markup.png)
 
@@ -259,7 +259,9 @@ You will see Netlify deploying your site with some funny name.
 
 ![img](../static/img/deploy-progress.png)
 
+:::note
 The building of your site for the first time takes several minutes. Be patient. When the build finishes, you will see the **Published** status.
+:::
 
 ![img](../static/img/site-deployed.png)
 
