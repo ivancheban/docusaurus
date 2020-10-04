@@ -20,7 +20,7 @@ So without too many words, let's start building our first documentation portal u
 
 ![img](../static/img/sign-in-GitHub.png)
 
-3. Now if you follow the [link to Tom's repo](https://github.com/tomjoht/documentation-theme-jekyll), you will see the contents of this repo that has the code and content for his example [documentation site](https://idratherbewriting.com/documentation-theme-jekyll/).
+3. Go to [Tom's repository](https://github.com/tomjoht/documentation-theme-jekyll).
 
 ![img](../static/img/tom-repo.png)
 
