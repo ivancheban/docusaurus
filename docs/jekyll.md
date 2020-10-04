@@ -229,7 +229,7 @@ You will see your project folder structure. Now your local folder is synced to t
 
 > Now when you have built the Documentation Site locally, you wonder how to publish it online for everyone to see. Although Tom tells how to publish his site on GitHub Pages, I don't recommend this. There are better and easier ways for publishing the sites built with Static Site Generators. For this example I will use Netlify.
 
-1. Sign up to Netlify.
+1. Sign up to [Netlify](https://www.netlify.com/).
 
 ![img](../static/img/netlify-signup.png)
 
