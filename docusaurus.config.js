@@ -7,7 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'https://github.com/ivancheban', // Usually your GitHub org/user name.
   plugins: [
-    require.resolve('@cmfcmf/docusaurus-search-local') // warning: Use '@cmfcmf/docusaurus-search-local' (without the require.resolve) if you use Docusaurus before v2.0.0-alpha.56
+    require.resolve('@cmfcmf/docusaurus-search-local')
   ],
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
