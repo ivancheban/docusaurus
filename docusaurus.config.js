@@ -6,6 +6,9 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'https://github.com/ivancheban', // Usually your GitHub org/user name.
+  plugins: [
+    require.resolve('@cmfcmf/docusaurus-search-local')
+  ],
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     googleAnalytics: {
