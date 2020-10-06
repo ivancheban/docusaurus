@@ -1,7 +1,4 @@
 module.exports = {
-  plugins: [
-    require.resolve('@cmfcmf/docusaurus-search-local')
-  ],
   title: 'Docs Portal',
   tagline: 'Tools and resources for technical writers',
   url: 'https://docus.vercel.app',
@@ -19,6 +16,11 @@ module.exports = {
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['powershell'],
+    },
+    algolia: {
+      apiKey: '37e9d61907a8ad84aba05fcc463db1ac',
+      indexName: 'docus',
+      searchParameters: {}, // Optional (if provided by Algolia)
     },
     colorMode: {
       // "light" | "dark"
