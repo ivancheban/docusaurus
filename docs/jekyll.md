@@ -10,7 +10,7 @@ So without too many words, let's start building our first documentation portal u
 
 ---
 
-## Download or clone the theme from the [GitHub repo](https://github.com/tomjoht/documentation-theme-jekyll)
+## Download or clone the theme from the GitHub repo
 
 1. Sign up for GitHub.
 
