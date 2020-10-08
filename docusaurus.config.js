@@ -17,11 +17,6 @@ module.exports = {
       theme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['powershell'],
     },
-    algolia: {
-      apiKey: '37e9d61907a8ad84aba05fcc463db1ac',
-      indexName: 'docus',
-      searchParameters: {}, // Optional (if provided by Algolia)
-    },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'light',
@@ -106,6 +101,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          // It is recommended to set document id as docs home page (`docs/` path).
+          homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
