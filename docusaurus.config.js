@@ -29,6 +29,11 @@ module.exports = {
       // using user system preferences, instead of the hardcoded defaultMode
       respectPrefersColorScheme: false,
     },
+    algolia: {
+      apiKey: '72758afc606216812733459893710bb',
+      indexName: 'ivancheban',
+      contextualSearch: true,
+    },
     navbar: {
       title: 'Documentation Portal',
       logo: {
@@ -40,13 +45,13 @@ module.exports = {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'right',
+          position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'right'},
+        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/ivancheban/docusaurus',
           label: 'GitHub',
-          position: 'right',
+          position: 'left',
         },
       ],
     },
@@ -94,6 +99,18 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Ivan Cheban. Built with Docusaurus.`,
+    },
+    algolia: {
+      apiKey: 'c3d1c2a163e21677b4702a05783f3b2a',
+      indexName: 'netlify_c7c3b9a3-6bbb-4267-a65b-33327b5fa63b_master_all',
+
+      // Optional: see doc section bellow
+      contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      //... other Algolia params
     },
   },
   presets: [
