@@ -201,3 +201,19 @@ This is a caution
 This is a warning
 
 :::
+
+### Details HTML
+
+One of the most useful HTML tags in Markdown:
+
+<details>
+
+<summary>Click to expand</summary>
+
+This is an expandable block for your code.
+
+```sh
+Add your code here.
+```
+
+</details>
